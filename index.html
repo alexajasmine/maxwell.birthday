@@ -5,19 +5,30 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css">
 		<script src="processing.js"></script>
+		<style>
+			.grid-container {
+  			display: grid;
+  			grid-template-columns: auto auto;
+  			padding: 10px;
+			}
+			.grid-item {
+  			padding: 20px;
+  			text-align: center;
+			}
+		</style>
 	</head>
 	<body>
 		<header>
 			<h1>Happy Birthday Maxwell!</h1>
 		</header>
-		<div = "row"> 
-			<div = "col"> 
+		<div = "grid-container"> 
+			<div = "grid-item"> 
 			<section id="content">
 				<canvas id="MaxwellBirthday" data-processing-sources="MaxwellBirthday.pde">
 				</canvas>
 		    </section>
 			</div> 
-			<div = "col"> 
+			<div = "grid-item"> 
 		<div class="card">
   <div class="back"></div>
   <div class="front">
