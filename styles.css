@@ -26,6 +26,11 @@ html, body {
   height: 100%;
 }
 
+a {
+  padding: 10px; 
+  color: rgb(255,255,255);
+}
+
 .card {
   position: relative;
   width: 300px;
