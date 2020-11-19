@@ -13,7 +13,7 @@ body {
     margin-right: auto
 }
 
-a {
+.tag {
   padding: 10px; 
   color: rgb(255,255,255);
 }
